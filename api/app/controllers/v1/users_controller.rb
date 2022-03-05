@@ -16,6 +16,6 @@ class V1::UsersController < ApplicationController
   private
 
   def user_params
-    params.require(:user).premit(:name, :email, :uid)
+    params.require(:user).permit(:name, :email, :uid)
   end
 end
