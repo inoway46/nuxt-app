@@ -11,7 +11,7 @@ class V1::TodosController < ApplicationController
     # else
     #   render json:todo.erros
     # end
-    puts paras
+    puts params
   end
 
   def destroy
